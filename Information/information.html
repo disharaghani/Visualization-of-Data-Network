@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Information page</title>
+    <style>
+        body {
+            background-image: url(../background.jpg);
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .box {
+            border: 2px solid white;
+            margin: 62px 118px;
+            padding: 42px 92px;
+            width: 73%;
+            border-radius: 11px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Visualization of Computer Networks</h1>
+    <div class="box">   
+    <div>
+           <h2>Gist of Project:</h2> 
+            <ul> Analysis of networks is important for operation, research and development of networks and design of new protocols. For these reasons we have developed a visualization tool to make analysis faster and easier. Visualization of computer networks is viewed
+                as a huge potential catalyst for implementing our algorithm in an effective way.</ul>
+
+                <h2>Ford-Fulkerson algorithm:By(L. R. Ford Jr. and D. R. Fulkerson) </h2>
+                <h3>1.Edmonds–Karp algorithm:</h3>
+                <ul>Ford-Fulkerson algorithm is a greedy approach for calculating the maximum possible flow in a network or a graph.
+                A term, flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff. 
+                We can visualize the understanding of the algorithm using a flow of liquid inside a network of pipes of different capacities. </ul>
+
+                <h3>2.Capacity Scaling algorithm: </h3>
+                <ul> The idea behind capacity scaling is to augment the highest flow paths first to reach our maximum flow faster. We do this by limiting our scope to a D-residual graph, i.e. a residual graph with all edges with < D capacity removed.
+                </ul>
+                <h3>Applications: </h3>
+                <ul>1.Water distribution pipeline<br>
+                    2.Bipartite matching problem<br>
+                    3.Circulation with demands</ul>
+                <h2>Network Graph:</h2>
+                <img src="C:\Users\Prakash\Desktop\S.E Project\SE Project final\SE Project final\Information\example_image.png"  class="center">
+
+                
+
+                <h3>Terminologies Used:</h3>
+                <h4>Source:</h4> 
+                    A vertex has all outward edge and no inward edge.
+                    <br>
+                <h4>Sink:</h4> 
+                    Sink will have all inward edge,no outward edge.
+                    <br>
+                <h4>Max-Flow</h4>
+                It is defined as the maximum amount of flow that the network would allow to flow from source to sink.
+                <br>
+                <h4> Augmenting Path:</h4>
+                    It is the path available in a flow network.
+                    <br>
+                <h4> Residual Graph:</h4>
+                    It represents the flow network that has additional possible flow.
+                    <br>
+                <h4> Residual Capacity:</h4>
+                    It is the capacity of the edge after subtracting the flow from the maximum capacity.
+                <h4>Bottle Neck capacity:</h4> 
+                    Minimum capacity of any edge on the path.
+                   
+                    
+        </div>
+        </div>
+    </body>
+</html>

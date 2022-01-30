@@ -1,0 +1,112 @@
+body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 90%;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+}
+
+.blink {
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
+}
+
+body {
+    background-color: #abbfd1;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#contentContainer {
+    width: 1000px;
+    height: 400px;
+    border: 1px black solid;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    cursor: pointer;
+    padding: 0px;
+    margin: 40px;
+    display: flex;
+}
+
+#vertexMenu {
+    border: 1px black solid;
+}
+
+#edgeMenu {
+    border: 1px black solid;
+}
+
+.button {
+    width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 600px;
+    background-color: #FFF4D3;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    border-color: darkblue;
+    border-style: ridge;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* .flow-table{
+    background-color:antiquewhite;
+    width:max-content;
+    display: flexbox;
+    margin-top: 580px;
+    marg
+} */
+table,th,td{
+    margin-top:-450px;
+    margin-right:-5px;
+    /* align-self: flex-end; */
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+table,th,td{
+    margin-bottom:400px;
+    margin-right:-5px;
+    /* align-self: flex-end; */
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}

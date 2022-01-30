@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            /* background-color: lightblue; */
+            background-image: url(../background.jpg);
+        }
+        
+        p {
+            font-size: 20px;
+        }
+        
+        textarea {
+            border-radius: 8px;
+        }
+        
+        hr {
+            border-top: 2px solid black;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        #feed {
+            margin-left: 10%;
+        }
+        
+        #box {
+            border: solid black 2px;
+            margin: 90px;
+            padding: 50px;
+        }
+        
+        .container {
+            border: 2px solid white;
+            margin: 62px 118px;
+            padding: 42px 92px;
+            width: 73%;
+            border-radius: 11px;
+        }
+        
+        .container h1 {
+            text-align: center;
+            margin: 3px;
+        }
+        
+        .container button {
+            display: block;
+            width: 10%;
+            margin: auto;
+        }
+        
+        .form-group input {
+            font-family: 'Baloo Bhaina 2', cursive;
+            display: block;
+            width: 485px;
+            padding: 1px;
+            border: 2px solid rgb(126, 123, 123);
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 10px
+        }
+        
+        .form-group textarea {
+            resize: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+            display: block;
+            width: 485px;
+            padding: 1px;
+            border: 2px solid rgb(126, 123, 123);
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 10px;
+            height: 240px
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Feedback Form</u></h1>
+    <div class="container">
+        <h2>We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!</h2>
+        <form action="noactio.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+                <input type="email" name="" placeholder="Enter Your E-mail Address">
+                <input type="number" name="" placeholder="Enter Your Phone no.">
+                <textarea rows="20" cols="20" placeholder="Describe Your FeedBack"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
